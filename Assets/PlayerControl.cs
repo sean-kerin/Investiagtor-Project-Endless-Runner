@@ -22,6 +22,6 @@ public class PlayerControl : MonoBehaviour
         float movementValuex = Input.GetAxis("horizontal");
 
         // change the x velocity of the rigidbody2D to be equal to the movement value
-        playerObject.velocity = new Vector2(movementValuexValueX, playerObjecy.velocity.y);
+        playerObject.velocity = new Vector2(movementValuex, playerObject.velocity.y);
     }
 }
